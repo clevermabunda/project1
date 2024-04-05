@@ -226,7 +226,7 @@ while True:
            2. view all
            3. restock
            4. search shoe
-           5. value per item
+           5. total value per item
            6. highest qty
            7. exit''')
      selection = int(input("\nEnter your menu selection using a corresponding number: "))
