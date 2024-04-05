@@ -180,7 +180,7 @@ def seach_shoe():
      This function will search for a shoe from the list
      using the shoe code and return this object so that it will be printed.
     '''
-    search = input("Please enter the code of the you are looking for: ").upper()
+    search = input("Please enter the code of the you are looking for: ")
     for i in shoe_list:
         if i.get_code() == search:
             print(i)
