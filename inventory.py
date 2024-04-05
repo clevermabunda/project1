@@ -98,7 +98,7 @@ def capture_shoes():
     '''
 
     country = input("Please enter the name of the country: ")
-    code = input("Please enter the shoe code: ")
+    code = input("Please enter the shoe code: ").upper()
     product = input("Please enter the name of the shoe you would like to order: ")
     cost = float(input("Please enter the price of the shoe:"))
     quantity = int(input("Please enter the amount of shoes you would like to order: "))
