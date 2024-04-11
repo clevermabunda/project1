@@ -211,7 +211,7 @@ def highest_qty():
         print("ON SALE!!!!!!")
 
     else:
-        print("no shoes")
+        print("There are no shoes available!")
             
 
 #==========Main Menu=============
