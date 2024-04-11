@@ -208,7 +208,7 @@ def highest_qty():
     '''
     if shoe_list:
         print(max(shoe_list, key=lambda x: x.quantity))         # Use key=lambda to find the maximum quantity
-        print("ON SALE!!!!!!")
+        print("We are on Sale!!!")
 
     else:
         print("no shoes")
